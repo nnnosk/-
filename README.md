@@ -4,11 +4,13 @@
 ```shell
 apt-get update -y && apt-get install curl -y
 ```
-          Centos 系统安装 Curl 方法
 
+<details>
+    <summary>Centos 系统安装 Curl 方法</summary>
 ```shell
 yum update -y && yum install curl -y
 ```
+</details>
 
 2.BBR 加速脚本
 
