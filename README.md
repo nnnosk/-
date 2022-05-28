@@ -6,9 +6,9 @@ apt-get update -y && apt-get install curl -y
 ```
           Centos 系统安装 Curl 方法
 
-  ```shell
-  yum update -y && yum install curl -y
-  ```
+```shell
+yum update -y && yum install curl -y
+```
 
 2.BBR 加速脚本
 
