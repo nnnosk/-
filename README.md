@@ -7,6 +7,7 @@ apt-get update -y && apt-get install curl -y
 
 <details>
     <summary>Centos 系统安装 Curl 方法</summary>
+    
 ```shell
 yum update -y && yum install curl -y
 ```
