@@ -1,15 +1,6 @@
 # Hax-V2ray
 
 <details>
-    <summary>Centos 系统安装 Curl</summary>
-    
-```shell
-yum update -y && yum install curl -y
-```
-    
-</details>
-
-<details>
     <summary>Woiden 需要卸载 Apache2</summary>
     
 ```shell
@@ -24,6 +15,15 @@ systemctl disable apache2
 ```shell
 apt-get update -y && apt-get install curl -y
 ```
+
+<details>
+    <summary>Centos 系统安装 Curl</summary>
+    
+```shell
+yum update -y && yum install curl -y
+```
+    
+</details>
 
 2.BBR 加速脚本
 
