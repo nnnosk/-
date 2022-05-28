@@ -1,9 +1,4 @@
 # Hax-V2ray
-1.Ubuntu/Debian 系统安装 Curl
-
-```shell
-apt-get update -y && apt-get install curl -y
-```
 
 <details>
     <summary>Centos 系统安装 Curl</summary>
@@ -13,6 +8,22 @@ yum update -y && yum install curl -y
 ```
     
 </details>
+
+<details>
+    <summary>Woiden 需要卸载 Apache2</summary>
+    
+```shell
+service apache2 stop 
+systemctl disable apache2
+```
+    
+</details>
+
+1.Ubuntu/Debian 系统安装 Curl
+
+```shell
+apt-get update -y && apt-get install curl -y
+```
 
 2.BBR 加速脚本
 
