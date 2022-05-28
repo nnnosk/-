@@ -1,12 +1,12 @@
 # Hax-V2ray
-1.Ubuntu/Debian 系统安装 Curl 方法
+1.Ubuntu/Debian 系统安装 Curl
 
 ```shell
 apt-get update -y && apt-get install curl -y
 ```
 
 <details>
-    <summary>Centos 系统安装 Curl 方法</summary>
+    <summary>Centos 系统安装 Curl</summary>
     
 ```shell
 yum update -y && yum install curl -y
