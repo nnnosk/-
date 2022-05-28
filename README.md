@@ -10,6 +10,7 @@ apt-get update -y && apt-get install curl -y
 ```shell
 yum update -y && yum install curl -y
 ```
+    
 </details>
 
 2.BBR 加速脚本
