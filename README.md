@@ -45,3 +45,11 @@ wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/Xr
 ```shell
 bash xray.sh
 ```
+
+# Typecho 多域名设置
+* 在Typecho网站根目录下config.inc.php中加上
+
+```php
+/**开启动态域名/跨域补救**/
+define('__TYPECHO_DYNAMIC_SITE_URL__',true);
+```
