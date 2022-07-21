@@ -53,3 +53,19 @@ wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/Xr
 ```shell
 bash xray.sh
 ```
+
+```sh
+x-ui              - 显示管理菜单 (功能更多)
+x-ui start        - 启动 x-ui 面板
+x-ui stop         - 停止 x-ui 面板
+x-ui restart      - 重启 x-ui 面板
+x-ui status       - 查看 x-ui 状态
+x-ui enable       - 设置 x-ui 开机自启
+x-ui disable      - 取消 x-ui 开机自启
+x-ui log          - 查看 x-ui 日志
+x-ui v2-ui        - 迁移本机器的 v2-ui 账号数据至 x-ui
+x-ui update       - 更新 x-ui 面板
+x-ui install      - 安装 x-ui 面板
+x-ui uninstall    - 卸载 x-ui 面板
+
+```
