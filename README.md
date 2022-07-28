@@ -1,3 +1,7 @@
+```sh
+-javaagent:C:\Tools\jetbra\ja-netfilter.jar=jetbrains
+```
+
 # Typecho 多域名设置
 * 在Typecho网站根目录下config.inc.php中加上
 
