@@ -9,9 +9,9 @@ systemctl disable apache2
 
 2.Ubuntu/Debian 系统安装 Curl
 
-* ```shell
-apt-get update -y && apt-get install curl -y
-```
+    ```shell
+    apt-get update -y && apt-get install curl -y
+    ```
 
 <details>
     <summary>Centos 系统安装 Curl</summary>
