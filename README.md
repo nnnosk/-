@@ -37,7 +37,7 @@ bash <(curl -Lso- https://git.io/kernel.sh)
     
 </details>
 
-    <details>
+<details>
     <summary>iPV6 aaPanel</summary>
         
 ```sh
