@@ -1,6 +1,13 @@
+<details>
+
+JetBrains 激活
 ```sh
 -javaagent:C:\Tools\jetbra\ja-netfilter.jar=jetbrains
 ```
+
+</details>
+
+<details>
 
 # Typecho 多域名设置
 * 在Typecho网站根目录下config.inc.php中加上
@@ -9,6 +16,8 @@
 /**开启动态域名/跨域补救**/
 define('__TYPECHO_DYNAMIC_SITE_URL__',true);
 ```
+
+</details>
 
 # Hax-V2ray
 
