@@ -1,4 +1,4 @@
-# HAX - Woiden
+HAX - Woiden
 
 1.需要卸载 Apache2
     
@@ -7,20 +7,20 @@ service apache2 stop
 systemctl disable apache2
 ```
 
-2.Ubuntu/Debian 系统安装 Curl
+2.安装 Curl
 
+* Ubuntu/Debian 系统
 ```shell
 apt-get update -y && apt-get install curl -y
 ```
 
-<details>
-    <summary>Centos 系统安装 Curl</summary>
+* Centos 系统
     
 ```shell
 yum update -y && yum install curl -y
 ```
     
-</details>
+
 
 3.BBR 加速脚本
 
