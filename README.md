@@ -1,16 +1,13 @@
 # HAX - Woiden
 
-<details>
-    <summary>Woiden 需要卸载 Apache2</summary>
+1.需要卸载 Apache2
     
 ```shell
 service apache2 stop 
 systemctl disable apache2
 ```
-    
-</details>
 
-1.Ubuntu/Debian 系统安装 Curl
+2.Ubuntu/Debian 系统安装 Curl
 
 ```shell
 apt-get update -y && apt-get install curl -y
@@ -25,7 +22,7 @@ yum update -y && yum install curl -y
     
 </details>
 
-2.BBR 加速脚本
+3.BBR 加速脚本
 
 ```shell
 bash <(curl -Lso- https://git.io/kernel.sh)
