@@ -39,6 +39,7 @@ bash <(curl -Lso- https://git.io/kernel.sh)
     
 <details>
     <summary>Typecho 多域名设置</summary>
+    
 * 在Typecho网站根目录下config.inc.php中加上
     
 ```php
