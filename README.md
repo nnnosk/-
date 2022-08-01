@@ -29,7 +29,7 @@ bash <(curl -Lso- https://git.io/kernel.sh)
 </details>
 
 <details>
-    <summary>iPV6 aaPanel</summary>
+    <summary>iPV6 - aaPanel</summary>
         
 ```sh
 echo "2606:4700:3034::ac43:ab07 brandnew.aapanel.com
