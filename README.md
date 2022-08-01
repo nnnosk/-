@@ -1,6 +1,6 @@
 <details>
+    <summary>JetBrains 激活</summary>
 
-JetBrains 激活
 ```sh
 -javaagent:C:\Tools\jetbra\ja-netfilter.jar=jetbrains
 ```
@@ -8,8 +8,8 @@ JetBrains 激活
 </details>
 
 <details>
-
-# Typecho 多域名设置
+    <summary>Typecho 多域名设置</summary>
+    
 * 在Typecho网站根目录下config.inc.php中加上
 
 ```php
