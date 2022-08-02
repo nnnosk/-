@@ -20,7 +20,20 @@ apt-get update -y && apt-get install curl -y
 yum update -y && yum install curl -y
 ```
     
-3.BBR 加速脚本
+3.UFW 防火墙
+
+```sh
+apt-get install ufw
+ufw enable
+ufw default deny
+ufw allow 22
+ufw allow 443
+ufw allow 8443
+ufw allow 10791
+ufw status
+```
+    
+4.BBR 加速脚本
 
 ```shell
 bash <(curl -Lso- https://git.io/kernel.sh)
