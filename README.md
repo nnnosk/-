@@ -42,7 +42,9 @@ echo "2606:4700:3034::ac43:ab07 brandnew.aapanel.com
     <summary>JetBrains 激活</summary>
     
 ```sh
--javaagent:C:\Tools\jetbra\ja-netfilter.jar=jetbrains
+-javaagent:C:/Tools/jetbra/ja-netfilter.jar=jetbrains
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
 ```
     
 </details>
