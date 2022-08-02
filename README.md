@@ -29,7 +29,8 @@ ufw default deny
 ufw allow 22
 ufw allow 443
 ufw allow 8443
-ufw allow 10791
+ufw allow 20116
+ufw delete allow 20116
 ufw status
 ```
     
