@@ -35,19 +35,11 @@ ufw default deny
 ```
     
 ```sh
-ufw allow 22
+ufw allow 
 ```
-    
-```sh
-ufw allow 443
-```
-    
-```sh
-ufw allow 8443
-```    
 
 ```sh
-ufw delete allow 8443
+ufw delete allow 
 ```
    
 ```sh
