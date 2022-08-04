@@ -24,13 +24,19 @@ yum update -y && yum install curl -y
 
 ```sh
 apt-get install ufw
+    
 ufw enable
+    
 ufw default deny
+    
 ufw allow 22
+    
 ufw allow 443
+    
 ufw allow 8443
-ufw allow 20116
-ufw delete allow 20116
+    
+ufw delete allow 8443
+    
 ufw status
 ```
     
