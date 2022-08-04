@@ -24,22 +24,35 @@ yum update -y && yum install curl -y
 
 ```sh
 apt-get install ufw
+```   
     
 ```sh
 ufw enable
+```
     
+```sh
 ufw default deny
+```
     
+```sh
 ufw allow 22
+```
     
+```sh
 ufw allow 443
+```
     
+```sh
 ufw allow 8443
-    
-ufw delete allow 8443
-    
-ufw status
+```    
 
+```sh
+ufw delete allow 8443
+```
+   
+```sh
+ufw status
+```
     
 4.BBR 加速脚本
 
