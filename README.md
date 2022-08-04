@@ -1,6 +1,6 @@
 <details>
     <summary>Hax - Woiden</summary>
-1.需要卸载 Apache2
+1.卸载 Apache2
     
 ```shell
 service apache2 stop 
