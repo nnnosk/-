@@ -24,7 +24,7 @@ yum update -y && yum install curl -y
 
 ```sh
 apt-get install ufw
-    
+```sh
 ufw enable
     
 ufw default deny
