@@ -35,7 +35,11 @@ systemctl start ufw
 ```
     
 ```sh
-ufw default deny
+ufw default deny incoming
+```
+    
+```sh
+ufw default allow outgoing
 ```
     
 ```sh
