@@ -29,6 +29,10 @@ apt-get install ufw
 ```sh
 ufw enable
 ```
+
+```sh
+systemctl start ufw
+```
     
 ```sh
 ufw default deny
