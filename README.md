@@ -53,6 +53,10 @@ ufw delete allow
 ```sh
 ufw status
 ```
+
+```sh
+ufw reload
+```
     
 4.BBR 加速脚本
 
