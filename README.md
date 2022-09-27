@@ -32,31 +32,15 @@ ufw enable
 
 ```sh
 systemctl start ufw
-```
-    
-```sh
 ufw default deny incoming
-```
-    
-```sh
 ufw default allow outgoing
-```
-    
-```sh
-ufw allow 
-```
-
-```sh
-ufw delete allow 
-```
-   
-```sh
-ufw status
-```
-
-```sh
+ufw allow 22
+ufw allow 443
+ufw allow 8443
 ufw reload
 ```
+    
+
     
 4.BBR 加速脚本
 
