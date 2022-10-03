@@ -3,7 +3,10 @@
 1.卸载 Apache2
     
 ```shell
-service apache2 stop 
+service apache2 stop
+```
+
+```shell
 systemctl disable apache2
 ```
     
