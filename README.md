@@ -57,9 +57,7 @@ bash <(curl -Lso- https://git.io/kernel.sh)
     <summary>iPV6 - aaPanel</summary>
         
 ```sh
-echo "2606:4700:3034::ac43:ab07 brandnew.aapanel.com
-2606:4700:3034::ac43:ab07 www.aapanel.com
-2606:4700:3034::ac43:ab07 aapanel.com" >> /etc/hosts
+echo -e "2606:4700:3034::ac43:ab07 brandnew.aapanel.com\n2606:4700:3034::ac43:ab07 www.aapanel.com\n2606:4700:3034::ac43:ab07 aapanel.com" >> /etc/hosts
 ```
 </details>
     
