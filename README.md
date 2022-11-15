@@ -43,8 +43,32 @@ ufw allow 8443
 ufw reload
 ```
     
+```sh
+mkdir /usr/local/caddy && cd /usr/local/caddy
+```
 
-    
+```sh
+wget -N --no-check-certificate -O "caddy" "https://caddyserver.com/api/download?os=linux&arch=amd64"
+```
+
+```sh
+chmod +x caddy
+```
+
+```sh
+h.nosk.eu.org {
+
+	root * /usr/local/caddy/www
+	tls /root/nosk.eu.org.pem /root/nosk.eu.org.key
+	file_server
+	
+	}
+```
+
+```sh
+/usr/local/caddy/caddy start --config /usr/local/caddy/Caddyfile --adapter caddyfile
+```
+
 4.BBR 加速脚本
 
 ```shell
